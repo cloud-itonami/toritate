@@ -1,0 +1,7 @@
+{:actor/id "toritate" :actor/glyph "執帳" :actor/tier :tier-b
+ :actor/did "did:web:toritate.etzhayyim.com"
+ :actor/purpose "Non-profit accounting and audit projections over transparent on-chain financial rails."
+ :actor/source-root "src/toritate" :actor/test-root "test/toritate"
+ :actor/contracts "contracts/lexicons.edn"
+ :actor/gates #{:on-chain-primary-ledger :no-fiat-primary-ledger :no-tax-advice
+                :no-commercial-accounting-software :no-payroll :aggregate-no-pii}}

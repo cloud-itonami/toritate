@@ -1,0 +1,7 @@
+{:lexicons
+ [{:id "com.etzhayyim.toritate.financialAttestation" :wire "wire/contracts/toritate/financialAttestation.json"}
+  {:id "com.etzhayyim.toritate.externalAuditorEngagement" :wire "wire/contracts/toritate/externalAuditorEngagement.json"}
+  {:id "com.etzhayyim.toritate.ledgerEntry" :wire "wire/contracts/toritate/ledgerEntry.json"}
+  {:id "com.etzhayyim.toritate.annualReport" :wire "wire/contracts/toritate/annualReport.json"}
+  {:id "com.etzhayyim.toritate.auditObservation" :wire "wire/contracts/toritate/auditObservation.json"}
+  {:id "com.etzhayyim.give.stock.donation" :wire "wire/contracts/give/stock/donation.json"}]}

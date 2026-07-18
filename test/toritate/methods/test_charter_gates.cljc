@@ -8,7 +8,7 @@
 (def ^:private actor-dir (.getParentFile here))
 (def ^:private actor-name (.getName actor-dir))
 (def ^:private root (.. actor-dir getParentFile getParentFile))
-(def ^:private lexdir (java.io.File. root (str "00-contracts/lexicons/com/etzhayyim/" actor-name)))
+(def ^:private lexdir (java.io.File. "wire/contracts/toritate"))
 (defn- lex [name] (json/parse-string (slurp (java.io.File. lexdir (str name ".json")))))
 
 (def ^:private ON-CHAIN-RAILS #{"base-l2" "geth-private" "ipfs-record-only"})

@@ -1,0 +1,4 @@
+{:identity/id "toritate" :identity/glyph "執帳"
+ :identity/did "did:web:toritate.etzhayyim.com"
+ :identity/wire-document "wire/identity-did.json"
+ :identity/wire-profile "wire/identity-profile.json"}

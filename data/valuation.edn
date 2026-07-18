@@ -1,0 +1,4 @@
+{:valuation/id :v1-retail-equiv
+ :valuation/status :draft-pending-council-attestation
+ :valuation/wire "wire/valuation/v1-retail-equiv.json"
+ :valuation/invariants {:cash-stipend-usd 0 :aggregate-only true}}
