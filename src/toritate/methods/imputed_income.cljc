@@ -21,7 +21,7 @@
 
   House style: result maps stay string-keyed (matching the Lexicon/AT-record camelCase shape);
   pure fns; the valuation table load is the only I/O, isolated behind #?(:clj ...)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [cheshire.core :as json])
             #?(:clj [clojure.java.io :as io])))
 
