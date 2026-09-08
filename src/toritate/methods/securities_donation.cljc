@@ -17,7 +17,7 @@
 
   House style: result maps stay string-keyed (matching the Lexicon/AT-record camelCase
   shape); pure fns; stdlib only."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:private identifier-schemes #{"ticker" "cusip" "isin"})
 

@@ -1,7 +1,7 @@
 (ns toritate.methods.test-charter-gates
   "toritate 執帳 — constitutional-gate conformance tests. Substrate-native Clojure (ADR-2606160842); 1:1 port of pruned test_charter_gates.py."
   (:require [clojure.test :refer [deftest is run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [cheshire.core :as json]))
 
 (def ^:private here (.getParentFile (java.io.File. ^String *file*)))
@@ -54,7 +54,7 @@
 ;; ── G12 — no payroll: no salary/wage category exists ──
 (deftest test-no-payroll-category
   (let [cats (known (lex "ledgerEntry") "category")
-        low (set (map str/lower-case cats))]
+        low (set (map str/lower cats))]
     (doseq [tok PAYROLL-TOKENS]
       (is (not (some #(str/includes? % tok) low)) (str "G12: ledger category must not include payroll term '" tok "'")))
     (is (and (contains? cats "subsistence-flow") (contains? cats "vocation-flow")) "G12: volunteer-economy flow categories must exist")))
