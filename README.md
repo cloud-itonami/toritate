@@ -10,6 +10,6 @@
 - `wire/contracts/`, `wire/valuation/`, and identity JSON — external projections
 - `docs/` — ADR, valuation method, contracts, and maturity documentation
 
-Run `bb test`.
+Run `kbb -M:test`.
 
 The actor keeps the on-chain ledger primary, excludes payroll and commercial accounting software, publishes no donor PII, and does not render tax or accounting opinions.
