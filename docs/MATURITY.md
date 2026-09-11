@@ -10,7 +10,7 @@ by 7+ sibling actors (wakai backstop / Public Fund / Tithe / Land Trust).
 | Lexicons | ✅ 5 under `com.etzhayyim.toritate.*` (ledgerEntry / financialAttestation / auditObservation / annualReport / externalAuditorEngagement) |
 | Cells | 🟡 path-reserved in `40-engine/.../cells/toritate_*` (R0) |
 | Manifest | ✅ present |
-| Tests | ✅ `bb test` — pins on-chain / no-fiat / no-payroll / tithe-split / donor-PII / Council gates |
+| Tests | ✅ `kbb -M:test` — pins on-chain / no-fiat / no-payroll / tithe-split / donor-PII / Council gates |
 | Methods | ⛔ no offline engine yet (R1) |
 
 ## Charter gates pinned by the test
