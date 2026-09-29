@@ -40,5 +40,5 @@ Council attestation review).
 
 - `/./manifest.edn`
 - `/./README.md`
-- `/./CLAUDE.md`
+- `/./AGENTS.md`
 - `/90-docs/adr/2605262900-toritate-accounting-audit-tier-b-actor-r0.md`
